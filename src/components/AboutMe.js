@@ -1,20 +1,28 @@
 import React from 'react';
-import navIcon1 from '../assets/hrt_logo.png';
 import slide1 from '../assets/Slide1.png';
+import CustomCarousel from './CustomCarousel';
 
-
+const items = [
+  {
+    src: slide1,
+    altText: 'Slide 1',
+    caption: 'Slide 1'
+  },
+  {
+    src: slide1,
+    altText: 'Slide 2',
+    caption: 'Slide 2'
+  },
+  {
+    src: slide1,
+    altText: 'Slide 3',
+    caption: 'Slide 3'
+  }
+];
 export const AboutMe = () => {
   return (
-  
-        <div className="AboutMe">
-            <h1>VỀ CHÚNG TÔI</h1>
-            <img id="logo" src={navIcon1}></img>
-            <h1>CÂU LẠC BỘ HRTECH</h1>
-            <img id="slide1" src={slide1}></img>
-            <p>Cuộc thi Vietnamese Youth Technopreneur Challenge 2022 - VYTEC'22</p>
-
-        </div>
-        
-    
+      <div className='aboutMe'>
+          <CustomCarousel items={items}/>
+      </div>
   )
 }
