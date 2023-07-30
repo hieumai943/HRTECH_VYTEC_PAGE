@@ -8,6 +8,9 @@
     max-height: 400px; /* image không vượt quá chiều cao */
     max-width: 100%; /* image co dãn theo chiều rộng khung Carousel */
   }
+.carousel .carousel-indicators button{
+  /* display: none; */
+}
 /*About me css*/
 .aboutMe {
     margin-left: 337px;
@@ -21,7 +24,7 @@
     width: 79px;
     height: 73px;
     position: relative;
-    top: -241px;
+    top: -14.24rem;
     right: -353px;
 
 }

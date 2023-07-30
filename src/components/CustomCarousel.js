@@ -27,9 +27,9 @@ const CustomCarousel = ({ items }) => {
     setActiveIndex(prevIndex);
   };*/ // cái này để prev đề phòng thôi a ạ :))))
   return (
-    <Carousel activeIndex={activeIndex} onSelect={() => {}}>
+    <Carousel activeIndex={activeIndex} onSelect={() => {}} prevIcon ={null} nextIcon = {null}>
       {items.map((item, index) => (
-        <Carousel.Item key={index}>
+        <Carousel.Item key={index} >
           <img className="d-block w-100" src={item.src} alt={item.altText} />
           <Carousel.Caption>
             <img className='logoCLB' src = {hrtLogo}></img>
