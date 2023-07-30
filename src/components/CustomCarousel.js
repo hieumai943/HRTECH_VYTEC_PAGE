@@ -1,7 +1,6 @@
 import React from 'react';
 import Carousel from 'react-bootstrap/Carousel';
 import { useState, useEffect } from 'react';
-import hrtLogo from '../assets/hrt_logo.png'
 import './AboutMe.css';
 
 const CustomCarousel = ({ items }) => {
@@ -32,7 +31,6 @@ const CustomCarousel = ({ items }) => {
         <Carousel.Item key={index} >
           <img className="d-block w-100" src={item.src} alt={item.altText} />
           <Carousel.Caption>
-            <img className='logoCLB' src = {hrtLogo}></img>
             <h3>{item.caption}</h3>
           </Carousel.Caption>
         </Carousel.Item>
