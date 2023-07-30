@@ -22,7 +22,7 @@ const items = [
 export const AboutMe = () => {
   return (
       <div className='aboutMe'>
-        <h1 className='textAboutUs'>Về chúng tôi</h1>
+        <h1 className='textAboutUs'>VỀ CHÚNG TÔI</h1>
           <CustomCarousel items={items}/>
       </div>
   )
