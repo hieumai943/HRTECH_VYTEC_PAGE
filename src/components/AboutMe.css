@@ -12,6 +12,10 @@
 .aboutMe {
     margin-left: 337px;
 }
+.textAboutUs {
+  position: relative;
+  left: -10rem;
+}
 /* logoHRT*/
 .logoCLB {
     width: 79px;
