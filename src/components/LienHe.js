@@ -46,6 +46,7 @@ export const LienHe = () => {
        
       </Row>
     </Container>
+    <span id="contact">LIÊN HỆ NGAY</span>
     <p id='uet'>© 2023 UET-VNU</p>
   </footer>
     
