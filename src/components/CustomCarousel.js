@@ -1,7 +1,6 @@
 import React from 'react';
 import Carousel from 'react-bootstrap/Carousel';
 import { useState, useEffect } from 'react';
-import hrtLogo from '../assets/hrt_logo.png'
 import './AboutMe.css';
 
 const CustomCarousel = ({ items }) => {
@@ -27,12 +26,11 @@ const CustomCarousel = ({ items }) => {
     setActiveIndex(prevIndex);
   };*/ // cái này để prev đề phòng thôi a ạ :))))
   return (
-    <Carousel activeIndex={activeIndex} onSelect={() => {}}>
+    <Carousel activeIndex={activeIndex} onSelect={() => {}} prevIcon ={null} nextIcon = {null}>
       {items.map((item, index) => (
-        <Carousel.Item key={index}>
+        <Carousel.Item key={index} >
           <img className="d-block w-100" src={item.src} alt={item.altText} />
           <Carousel.Caption>
-            <img className='logoCLB' src = {hrtLogo}></img>
             <h3>{item.caption}</h3>
           </Carousel.Caption>
         </Carousel.Item>
