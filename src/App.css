@@ -351,7 +351,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   font-size: 140%;
 }
 .content button{
-  font-size: 150%;
+  font-size: 130%;
   color: white;
 }
 .main2{
@@ -408,7 +408,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
     
   }
   .main2 .content button{
-   width: 30%;
+   width: 22%;
   
   }
 }
@@ -458,7 +458,10 @@ text-align: start;
 
 }
 @media (max-width: 835px){
+  
   .achieve{
+    display: flex;
+    justify-content: center;
     margin: 0 ;
   }
   .achieve p{
