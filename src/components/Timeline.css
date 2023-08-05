@@ -1,0 +1,69 @@
+
+#line {
+    margin-top: 100px;
+}
+.timeline{
+    margin-bottom: 0;
+}
+.textVongDon{
+    font-size: 20px;
+    margin-bottom: 2px;   
+    font-weight: bold;
+    position: relative;
+    right: -70px;
+    font-family: 'Centra', sans-serif !important;
+
+}
+.textBanKet{
+    font-size: 20px;
+    margin-bottom: 2px; 
+    font-weight: bold;
+    position: relative;
+    left: -100px;
+    font-family: 'Centra', sans-serif !important;
+  
+}   
+.textChungKet{
+    font-size: 20px;
+    margin-bottom: 2px;   
+    font-weight: bold;
+    font-family: 'Centra', sans-serif !important;
+    position: relative;
+    right: -80px;
+
+}   
+.vongDon{
+    position: relative;
+    top: -520px;
+}
+.banKet{
+    position: relative;
+    top: -510px;
+}
+.chungKet{
+    position: relative;
+    top: -500px;
+}
+.timeline pre {
+    margin: 2vh;
+    font-size: 14px;
+    text-align: left;
+}
+.paragraphDon,
+.paragraphBan,
+.paragraphChung
+{
+   position: relative;
+}
+.paragraphDon{
+    right: -400px;
+    top: -20px;
+}
+.paragraphBan{
+    right: -280px;
+    top: -20px;
+}
+.paragraphChung{
+    right: -400px;
+    top: -20px;
+}
