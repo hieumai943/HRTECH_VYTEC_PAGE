@@ -313,18 +313,57 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   width: 100vw;
   
 }
+.main2 .content h1{
+  color: #91FFFE;
+  font-size: 40px;
+
+}
+.main2 .content p{
+  font-size: 20px;
+  margin: 15px 0 10px 0;
+}
 .main2 .content ul{
-  margin: 0 20%;
   
+  text-align: start;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: normal;
+
+}
+.main2 .content ul li{
+
+ margin: 4vh 35%;
 }
 .main2 .content button{
   border: 1px solid  #fff;
   color: white;
-  width: 8%;
+  width: 9%;
+  height: 40px;
   margin: 20px;
-  
+  border-radius: 20px;
+
   
 }
+@media (max-width:835px) {
+  .main2 .content ul li{
+    font-size: 18px;
+    margin: 4vh 20%;
+   }
+   .main2 .content h1{
+    color: #91FFFE;
+    font-size: 30px;
+  
+  }
+  .main2 .content p{
+    font-size: 20px;
+    
+  }
+  .main2 .content button{
+   width: 30%;
+  
+  }
+}
+
 /* timeline */
  .timeline{
   margin: 10vh;
@@ -341,8 +380,30 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   margin: 5vh;
 }
 
+/* Giai thuong */
+.achieve{
+  display: flex;
 
+  margin: 0 25%;
+  align-items: center;
+}
+.achieve p{
 
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+text-align: start;
+}
+.achieve img{
+  width: 55px;
+  height: 44px;
+
+}
+.timeline h1{
+  color: #91FFFE;
+  font-size: 40px;
+}
 /* About me  */
 .AboutMe{
   
