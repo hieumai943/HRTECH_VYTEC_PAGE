@@ -67,7 +67,9 @@ button {
 input:focus, textarea:focus, select:focus {
   outline: none;
 }
-
+.container{
+  padding: 0px;
+}
 @media (min-width:1700px) {
 	main .container {
 		max-width: 100%;
@@ -91,7 +93,7 @@ nav.navbar {
   padding: 18px 0;
   position: fixed;
   width: 100%;
-  height: 15%;
+ 
   top: 0;
   z-index: 9999;
   transition:  0.32s ease-in-out;
@@ -143,6 +145,18 @@ span.navbar-text {
 .navbar-collapse{
   margin-left: 10%;
 }
+/* @media screen and (max-width: 767px) {
+  .navbar-collapse.collapse.show{
+    background-color: #fff;
+    width: 100vw;
+    margin: 0px;
+  
+  }
+  .navbar-collapse.collapse.show a{
+    height: 30px; 
+   }
+} */
+
 .navbar-text button {
   font-weight: 700;
   color: #fff;
@@ -201,6 +215,8 @@ nav.navbar .navbar-toggler-icon {
 nav.navbar .navbar-toggler-icon:focus {
 	border-bottom: 2px solid #fff;
 }
+
+
 nav.navbar .navbar-toggler-icon:after,
 nav.navbar .navbar-toggler-icon:before {
 	width: 24px;
@@ -366,20 +382,28 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 /* timeline */
  .timeline{
-  margin: 10vh;
+  margin: 12vh;
  }
  .timeline img{
 
   width: 50vw;
   
 }
-.timeline h1{
-  margin: 10vh;
-}
+
 .timeline p{
   margin: 5vh;
 }
+.timeline h1{
+  color: #91FFFE;
+  font-size: 40px;
+}
+@media (max-width: 835px){
 
+  .timeline h1{
+    font-size: 30px;
+   }
+
+}
 /* Giai thuong */
 .achieve{
   display: flex;
@@ -400,31 +424,46 @@ text-align: start;
   height: 44px;
 
 }
-.timeline h1{
-  color: #91FFFE;
-  font-size: 40px;
+@media (max-width: 835px){
+  .achieve{
+    margin: 0 ;
+  }
+  .achieve p{
+    font-size: 15px;
+    margin : 5vh 0;
+   }
+
 }
 /* About me  */
-.AboutMe{
+.aboutMe{
   
-  padding: 20VH 0 30vh;
+  
 }
-.AboutMe h1:first-child{
+.aboutMe .textAboutUs{
   color: #91FFFE;
   
 }
-.AboutMe #logo{
+.aboutMe #logo{
   width: 10vw;
   margin: 5vh;
 }
-.AboutMe #slide1{
+.aboutMe #slide1{
   width: 50vw;
   margin: 5vh;
 
 }
-.AboutMe p{
+.aboutMe p{
   color: #3AA4C9;
   margin: 0 30vw;
+}
+@media (max-width: 835px){
+  .timeline{
+    margin: 10vh 5vh;
+  }
+  .timeline h1{
+    font-size: 30px;
+   }
+
 }
 
 /* ----------Footer css------------------- */
