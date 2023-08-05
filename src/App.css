@@ -70,6 +70,8 @@ input:focus, textarea:focus, select:focus {
 .container{
   padding: 0px;
 }
+
+
 @media (min-width:1700px) {
 	main .container {
 		max-width: 100%;
@@ -101,9 +103,10 @@ nav.navbar {
   
 }
 nav.navbar.scrolled {
-  padding: 0px 0;
-  background-color: #121212;
+  padding:  0;
+ 
 }
+
 nav.navbar a.navbar-brand {
     width: 9%;
 }
@@ -129,9 +132,18 @@ nav.navbar .navbar-nav .nav-link.navbar-link {
   font-size: 18px;
   opacity: 0.75;
 }
+nav.navbar .navbar-nav .nav-link.navbar-link.scrolled{
+  color:white;
+}
 nav.navbar .navbar-nav a.nav-link.navbar-link:hover,
 nav.navbar .navbar-nav a.nav-link.navbar-link.active {
     opacity: 1;
+    font-weight: 600;
+}
+@media (max-width:991px) {
+	nav.navbar .navbar-nav .nav-link.navbar-link{
+    padding-top: 10px ;
+  }
 }
 span.navbar-text {
     display: flex;
@@ -156,7 +168,11 @@ span.navbar-text {
     height: 30px; 
    }
 } */
-
+@media screen and (max-width: 1025px) {
+  .logo_hr{
+    display: none;
+  }
+}
 .navbar-text button {
   font-weight: 700;
   color: #fff;
@@ -320,6 +336,23 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   align-items: center;
   color: white;
 
+}
+.main .content img{
+  width: 35%;
+}
+@media (max-width:835px) {
+  .main .content img{
+    width: 50%;
+  }
+}
+
+.content p{
+  margin: 5vh 10vw 10vh 10vw;
+  font-size: 140%;
+}
+.content button{
+  font-size: 150%;
+  color: white;
 }
 .main2{
   position: relative;

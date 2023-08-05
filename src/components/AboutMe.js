@@ -48,10 +48,12 @@ const items = [
 ];
 export const AboutMe = () => {
   return (
+    <section id='aboutme'>
       <div className='aboutMe'>
         <h1 className='textAboutUs'>VỀ CHÚNG TÔI</h1>
         <img className='logoCLB' src = {hrtLogo}></img>
           <CustomCarousel items={items}/>
       </div>
+      </section>
   )
 }

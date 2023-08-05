@@ -3,6 +3,7 @@ import Bgr from '../assets/thele.jpg';
 
 export const Thele = () => {
   return (
+    <section  id='thele'>
     <div className='main2'>
         <div className="overlay"></div>
         <div className="content">
@@ -17,5 +18,6 @@ export const Thele = () => {
         
         
     </div>
+    </section>
   )
 }

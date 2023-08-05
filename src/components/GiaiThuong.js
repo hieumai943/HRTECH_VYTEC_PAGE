@@ -6,7 +6,7 @@ import achieve3 from "../assets/copper.png";
 export const GiaiThuong = () => {
   return (
   
-        
+        <section id='giaithuong'>
         <div className="timeline">
             <h1>GIẢI THƯỞNG</h1>
             <div class="achieve">
@@ -28,6 +28,7 @@ export const GiaiThuong = () => {
             </p>
             </div>
         </div>
+        </section>
         
     
   )
