@@ -354,6 +354,9 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   font-size: 130%;
   color: white;
 }
+.content button:hover{
+  background:#032e4f ;
+}
 .main2{
   position: relative;
 }

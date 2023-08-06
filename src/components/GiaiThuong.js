@@ -2,6 +2,7 @@ import React from 'react';
 import achieve1 from "../assets/gold.png";
 import achieve2 from "../assets/silver.png";
 import achieve3 from "../assets/copper.png";
+import './GiaiThuong.css'
 
 export const GiaiThuong = () => {
   return (

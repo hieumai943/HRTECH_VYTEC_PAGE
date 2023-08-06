@@ -30,9 +30,6 @@ const CustomCarousel = ({ items }) => {
       {items.map((item, index) => (
         <Carousel.Item key={index} >
           <img className="d-block w-100" src={item.src} alt={item.altText} />
-          <Carousel.Caption>
-            <h3>{item.caption}</h3>
-          </Carousel.Caption>
         </Carousel.Item>
       ))}
     </Carousel>
@@ -40,3 +37,6 @@ const CustomCarousel = ({ items }) => {
 };
 
 export default CustomCarousel;
+/**<Carousel.Caption>
+            <h3>{item.caption}</h3>
+          </Carousel.Caption> */

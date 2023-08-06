@@ -1,32 +1,34 @@
 /* components/CustomCarousel.css */
 .carousel {
-    max-height: 450px; /* Thay đổi chiều cao */
-    max-width: 50vw; /* Thay đổi chiều rộng */
+    max-height: 401px; /* Thay đổi chiều cao */
+    max-width: 600px; /* Thay đổi chiều rộng */
   }
   /* đổi kích thước thì đổi cả trên cả dưới anh nhá, trên là kích thước khung, dưới là kích thước ảnh */
   .carousel-item img {
-    max-height: 450px; /* image không vượt quá chiều cao */
+    max-height: 401px; /* image không vượt quá chiều cao */
     max-width: 100%; /* image co dãn theo chiều rộng khung Carousel */
   }
 .carousel .carousel-indicators button{
-  /* display: none; */
+   display: none; 
 }
 /*About me css*/
 .aboutMe {
-    margin-left: 339px;
+    margin-left: 430px;
+    position: relative;
+    bottom: -20px;
     /* display: flex; */
 }
 .textAboutUs {
   position: relative;
-  left: -10rem;
+  left: -13rem;
   margin-bottom: 40px;
 }
 /* logoHRT*/
 .logoCLB {
-    width: 79px;
-    height: 73px;
+    width: 118.5px;
+    height: 109.5px;
     position: relative;
-    left: -11rem;
+    left: -13rem;
     margin-bottom: 40px;
 
 }
