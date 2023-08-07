@@ -38,14 +38,14 @@
 }
 .banKet{
     position: relative;
-    top: -510px;
+    top: -440px;
 }
 .chungKet{
     position: relative;
-    top: -500px;
+    top: -370px;
 }
-.timeline pre {
-    margin: 2vh;
+.timeline p {
+     margin: 2vh;
     font-size: 14px;
     text-align: left;
 }
@@ -56,14 +56,69 @@
    position: relative;
 }
 .paragraphDon{
-    right: -400px;
-    top: -20px;
+    right: -550px;
+    top: -5px;
 }
 .paragraphBan{
-    right: -280px;
-    top: -20px;
+    right: -390px;
+    top: -5px;
 }
 .paragraphChung{
-    right: -400px;
-    top: -20px;
+    right: -550px;
+    bottom: -0;
+}
+@media screen and (max-width: 467px) and (max-height: 668px){
+    .timeline pre {
+       font-size: 7px;
+       text-align: left;
+   }
+    .textVongDon{
+        font-size: 13px;
+        margin-bottom: 2px;   
+        font-weight: bold;
+        position: relative;
+        right: -5px;
+        bottom: -335px;
+        font-family: 'Centra', sans-serif !important;
+    
+    }
+    .textBanKet{
+        font-size: 13px;
+        margin-bottom: 2px; 
+        font-weight: bold;
+        position: relative;
+        left: -0px;
+        bottom: -245px;
+        font-family: 'Centra', sans-serif !important;
+      
+    }   
+    .textChungKet{
+        font-size: 13px;
+        margin-bottom: 2px;   
+        font-weight: bold;
+        font-family: 'Centra', sans-serif !important;
+        position: relative;
+        right: -10px;
+        bottom: -165px;
+    
+    }   
+.paragraphDon,
+.paragraphBan,
+.paragraphChung
+{
+    position: relative;
+   font-size: 7px !important;
+}
+.paragraphDon{
+    top: 330px;
+    left: 110px;
+}
+.paragraphBan{
+    top: 240px;
+    left: 110px;
+}
+.paragraphChung{
+    bottom: -160px;
+    right: -110px;
+}
 }

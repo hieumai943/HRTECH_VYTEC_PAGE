@@ -32,4 +32,31 @@
     margin-bottom: 40px;
 
 }
-  
+@media screen and (max-width: 467px) and (max-height: 668px){
+  .carousel {
+    max-height: 65vh !important; /* Thay đổi chiều cao */
+    max-width: 65vh !important; /* Thay đổi chiều rộng */
+  }
+  .carousel-item img {
+    max-height: 65vh !important; /* image không vượt quá chiều cao */
+    max-width: 100%; /* image co dãn theo chiều rộng khung Carousel */
+  }
+  .aboutMe {
+    margin-left: 0px !important;
+    position: relative;
+    bottom: -20px;
+}
+.textAboutUs {
+  position: relative;
+  left: -0rem;
+  margin-bottom: 40px;
+}
+.logoCLB {
+    width: 79px !important;
+    height: 73px !important;
+    position: relative;
+    left: 0 !important;
+    margin-bottom: 40px;
+
+}
+}
