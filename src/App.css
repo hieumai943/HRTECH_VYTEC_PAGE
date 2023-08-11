@@ -396,6 +396,13 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
   
 }
+@media (max-width:1076px) {
+  
+  .main2 .content button{
+   width: 15%;
+  
+  }
+}
 @media (max-width:835px) {
   .main2 .content ul li{
     font-size: 18px;
@@ -412,10 +419,17 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   }
   .main2 .content button{
    width: 22%;
+ 
+  }
+  
+}
+@media (max-width:437px) {
+  
+  .main2 .content button{
+   width: 30%;
   
   }
 }
-
 /* timeline */
  .timeline{
   margin: 12vh;
@@ -444,7 +458,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .achieve{
   display: flex;
 
-  margin: 0 25%;
+  margin: 5vh 32%;
   align-items: center;
 }
 .achieve p{

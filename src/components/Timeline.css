@@ -1,124 +1,174 @@
 
-#line {
-    margin-top: 100px;
-}
-.timeline{
-    margin-bottom: 0;
-}
-.textVongDon{
-    font-size: 20px;
-    margin-bottom: 2px;   
-    font-weight: bold;
+.content_tl{
     position: relative;
-    right: -70px;
-    font-family: 'Centra', sans-serif !important;
-
-}
-.textBanKet{
-    font-size: 20px;
-    margin-bottom: 2px; 
-    font-weight: bold;
-    position: relative;
-    left: -100px;
-    font-family: 'Centra', sans-serif !important;
   
-}   
-.textChungKet{
-    font-size: 20px;
-    margin-bottom: 2px;   
-    font-weight: bold;
-    font-family: 'Centra', sans-serif !important;
-    position: relative;
-    right: -80px;
+}
+.content_tl img{
+    width: 60vw;
+}
 
-}   
 .vongDon{
-    position: relative;
-    top: -520px;
+    position: absolute;
+    top: 5%;
+    right: 25%;
+  
+
+}
+.vongDon h2{
+    font-size: 20px;
+    font-weight: bold;
+}
+.vongDon p {
+    text-align: start;
+    font-size: 1.2vw;
+    margin: 0px;
 }
 .banKet{
-    position: relative;
-    top: -440px;
+    position: absolute;
+    top: 43%;
+    left: 25%;
+  
+    height: 10%;
+}
+.banKet h2{
+    font-size: 20px;
+    font-weight: bold;
+}
+.banKet p {
+    text-align: start;
+    font-size: 1.2vw;
+    margin: 0px;
 }
 .chungKet{
-    position: relative;
-    top: -370px;
+    position: absolute;
+    bottom: 15%;
+    right: 25%;
+  
+    height: 10%;
 }
-.timeline p {
-     margin: 2vh;
-    font-size: 14px;
-    text-align: left;
+.chungKet h2{
+    font-size: 20px;
+    font-weight: bold;
 }
-.paragraphDon,
-.paragraphBan,
-.paragraphChung
-{
-   position: relative;
+.chungKet p {
+    text-align: start;
+    font-size: 1.2vw;
+    margin: 0px;
 }
-.paragraphDon{
-    right: -550px;
-    top: -5px;
-}
-.paragraphBan{
-    right: -390px;
-    top: -5px;
-}
-.paragraphChung{
-    right: -550px;
-    bottom: -0;
-}
-@media screen and (max-width: 467px) and (max-height: 668px){
-    .timeline pre {
-       font-size: 7px;
-       text-align: left;
-   }
-    .textVongDon{
-        font-size: 13px;
-        margin-bottom: 2px;   
-        font-weight: bold;
-        position: relative;
-        right: -5px;
-        bottom: -335px;
-        font-family: 'Centra', sans-serif !important;
-    
+@media (max-width:991px) {
+    .content_tl img{
+        width: 90vw;
+        height: 120vw;
     }
-    .textBanKet{
-        font-size: 13px;
-        margin-bottom: 2px; 
-        font-weight: bold;
-        position: relative;
-        left: -0px;
-        bottom: -245px;
-        font-family: 'Centra', sans-serif !important;
+    .vongDon{
+
+        top: 12%;
+        right: 15%;
+    }
+    .vongDon h2{
+        font-size: 30px;
+    }
+    .vongDon p{
+        
+        font-size: 20px;
+    }
+    .banKet{
+     
+        
+    }
+    .banKet h2{
+        font-size: 30px;
+    }
+    .banKet p{
+        
+        font-size: 20px;
+    }
+    .chungKet{
+
+      right: 15%;
+    }
+    .chungKet h2{
+        font-size: 30px;
+    }
+    .chungKet p{
+        
+        font-size: 20px;
+    }
+}
+@media (max-width:834px) {
+    .content_tl img{
+        width: 90vw;
+        height: 90vw;
+    }
+    .vongDon{
+        
+        top: 12%;
+        right: 15%;
+    }
+    .vongDon h2{
+        font-size: 25px;
+    }
+    .vongDon p{
+        
+        font-size: 15px;
+    }
+    .banKet{
+        top: 40%;
+        left: 17%;
+        
+    }
+    .banKet h2{
+        font-size: 25px;
+    }
+    .banKet p{
+        
+        font-size: 15px;
+    }
+    .chungKet{
+
       
-    }   
-    .textChungKet{
-        font-size: 13px;
-        margin-bottom: 2px;   
-        font-weight: bold;
-        font-family: 'Centra', sans-serif !important;
-        position: relative;
-        right: -10px;
-        bottom: -165px;
-    
-    }   
-.paragraphDon,
-.paragraphBan,
-.paragraphChung
-{
-    position: relative;
-   font-size: 7px !important;
+    }
+    .chungKet h2{
+        font-size: 25px;
+    }
+    .chungKet p{
+        
+        font-size: 15px;
+    }
 }
-.paragraphDon{
-    top: 330px;
-    left: 110px;
-}
-.paragraphBan{
-    top: 240px;
-    left: 110px;
-}
-.paragraphChung{
-    bottom: -160px;
-    right: -110px;
-}
+@media (max-width:593px) {
+    .content_tl img{
+        width: 90vw;
+        height: 160vw;
+    }
+    .vongDon{
+        margin-left: 15%;
+        top: 8%;
+        right: 10%;
+    }
+    .chungKet{
+        margin-left: 15%;
+        bottom: 15%;
+        right: 10%;
+    }
+    .vongDon h2, .chungKet h2{
+        font-size: 20px;
+    }
+    .vongDon p, .chungKet p{
+        
+        font-size: 15px;
+    }
+    .banKet{
+        left: 20%;
+   
+       
+    }
+    .banKet h2{
+        font-size: 20px;
+    }
+    .banKet p{
+        
+        font-size: 15px;
+    }
+   
 }

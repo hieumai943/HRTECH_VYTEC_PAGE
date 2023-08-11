@@ -17,7 +17,7 @@ function App() {
       <Thele />
       <Timeline />
       <GiaiThuong/>
-      <AboutMe />
+      {/* <AboutMe /> */}
       <LienHe/>
     </div>
   );
