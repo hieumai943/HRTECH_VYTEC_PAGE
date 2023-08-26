@@ -15,7 +15,7 @@ export const Timeline = () => {
             <br />
                <span>Hình thức:</span> Online
                <br />
-               <span>Đăng ký cá nhân:</span>Các cá nhân có nhu cầu tham gia đăng ký theo form của BTC và được add vào group ghép đội VYTEC’23
+               <span>Đăng ký cá nhân:</span> Các cá nhân có nhu cầu tham gia đăng ký theo form của BTC và được add vào group ghép đội VYTEC’23
               <br />
               <span>Đăng ký theo đội:</span> Thí sinh dự thi theo nhóm từ 3 - 5 thành viên, các thành viên đều phải đang còn là sinh viên hoặc mới ra trường không quá một năm.
 
@@ -44,10 +44,10 @@ Mỗi đội thi sẽ có 12 phút cho sản phẩm của mình, bao gồm:
             <br />
                <span>Thể lệ:</span> 3 phần thi
                <ul>
-  <li> <span>Phần 1:</span>Thuyết trình về kế hoạch kinh doanh và kêu gọi Hỗ trợ đầu tư từ Hội đồng Nhà đầu tư.</li>
-  <li><span>Phần 2:</span>Mỗi đội sẽ có khoảng 6 phút để suy nghĩ, trả lời các câu hỏi tình huống từ phía BTC cuộc thi và lắng nghe nhận xét từ Hội đồng Nhà đầu tư.</li>
+  <li> <span>Phần 1:</span>  Thuyết trình về kế hoạch kinh doanh và kêu gọi Hỗ trợ đầu tư từ Hội đồng Nhà đầu tư.</li>
+  <li><span>Phần 2:</span>  Mỗi đội sẽ có khoảng 6 phút để suy nghĩ, trả lời các câu hỏi tình huống từ phía BTC cuộc thi và lắng nghe nhận xét từ Hội đồng Nhà đầu tư.</li>
 
-  <li><span>Phần 3:</span>Tranh biện </li>
+  <li><span>Phần 3:</span>  Tranh biện </li>
 
 </ul>
               
