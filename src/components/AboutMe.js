@@ -31,11 +31,6 @@ const items = [
     caption: 'Slide 4'
   },
   {
-    src: slide5,
-    altText: 'Slide 5',
-    caption: 'Slide 5'
-  },
-  {
     src: slide6,
     altText: 'Slide 6',
     caption: 'Slide 6'
