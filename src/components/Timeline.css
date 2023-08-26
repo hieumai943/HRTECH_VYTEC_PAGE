@@ -1,18 +1,23 @@
 
 .content_tl{
     position: relative;
-  
+  margin-top: 50px;
 }
 .content_tl img{
-    width: 60vw;
+    width: 80vw;
 }
 
 .vongDon{
     position: absolute;
-    top: 5%;
-    right: 25%;
-  
+    top: 6%;
+    right: 18%;
+    width: 50%;
 
+
+}
+.vongDon span{
+    font-weight: bold;
+    font-size: 20px;
 }
 .vongDon h2{
     font-size: 20px;
@@ -26,7 +31,7 @@
 .banKet{
     position: absolute;
     top: 43%;
-    left: 25%;
+    left: 20%;
   
     height: 10%;
 }
@@ -39,11 +44,15 @@
     font-size: 1.2vw;
     margin: 0px;
 }
+.banKet span{
+    font-weight: bold;
+    font-size: 20px ;
+}
 .chungKet{
     position: absolute;
-    bottom: 15%;
-    right: 25%;
-  
+    bottom: 17%;
+    right: 18%;
+    width: 50%;
     height: 10%;
 }
 .chungKet h2{
@@ -54,6 +63,10 @@
     text-align: start;
     font-size: 1.2vw;
     margin: 0px;
+}
+.chungKet span{
+    font-weight: bold;
+    font-size: 20px;
 }
 @media (max-width:991px) {
     .content_tl img{
