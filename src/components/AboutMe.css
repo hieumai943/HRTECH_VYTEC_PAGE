@@ -16,7 +16,6 @@
     margin-left: 430px;
     position: relative;
     bottom: -20px;
-    /* display: flex; */
 }
 .textAboutUs {
   position: relative;
@@ -31,6 +30,71 @@
     left: -13rem;
     margin-bottom: 40px;
 
+}
+@media all and (max-width:992px){
+  .aboutMe{
+    margin-left: 20% !important;
+  }
+  .textAboutUs {
+    position: relative;
+    left: -6rem;
+    margin-bottom: 40px;
+  }
+  .logoCLB {
+    width: 7.40625em;
+    height: 6.84375em;
+    position: relative;
+    left: -6rem;
+    margin-bottom: 40px;
+}
+}
+@media all and (max-width:835px){
+  .aboutMe{
+    margin-left: 15% !important;
+  }
+  .textAboutUs {
+    position: relative;
+    left: -3rem;
+    margin-bottom: 40px;
+  }
+  .logoCLB {
+    width: 7.40625em;
+    height: 6.84375em;
+    position: relative;
+    left: -3rem;
+    margin-bottom: 40px;
+}
+}
+@media all and (max-width:594px){
+  .aboutMe{
+    margin-left: 3em !important;
+  }
+  .carousel {
+    max-height: 80vh !important; /* Thay đổi chiều cao */
+    max-width: 80vh !important; /* Thay đổi chiều rộng */
+  }
+  .carousel-item img {
+    max-height: 80vh !important; /* image không vượt quá chiều cao */
+    max-width: 100%; /* image co dãn theo chiều rộng khung Carousel */
+  }
+  .textAboutUs {
+    position: relative;
+    left: -1rem;
+    margin-bottom: 40px;
+  }
+  .logoCLB {
+    width: 7.40625em;
+    height: 6.84375em;
+    position: relative;
+    left: -1rem;
+    margin-bottom: 40px;
+
+}
+}
+@media all and (max-width:415px){
+  .aboutMe{
+    margin-left: 3% !important;
+  }
 }
 @media screen and (max-width: 467px) and (max-height: 668px){
   .carousel {
