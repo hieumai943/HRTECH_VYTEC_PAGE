@@ -44,7 +44,7 @@ export const NavBar = () =>{
           </Nav>
           <span className="navbar-text">
               <div className="logo_hr">
-                <a href="#"><img src={navIcon1} alt="" /></a>
+                <a href="https://www.facebook.com/hrtechclub"><img src={navIcon1} alt="" /></a>
               </div>
         
             </span>
