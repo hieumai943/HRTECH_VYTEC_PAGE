@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import './AboutMe.css'
 import slide1 from '../assets/Slide1.png';
 import slide2 from '../assets/Slide2.png';
@@ -10,10 +10,13 @@ import slide7 from '../assets/Slide7.png';
 import hrtLogo from '../assets/hrt_logo.png'
 
 import { Pagination } from 'swiper';
-
+import SwiperCore, { Autoplay } from 'swiper';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/pagination';
+
+SwiperCore.use([Autoplay]);
+
 const data = [
   {
     avatar: slide1,
@@ -47,6 +50,8 @@ const data = [
   
 ]
 export const AboutMe = () => {
+  
+
   return (
     <section id='testimonials'>
     <h1>VỀ CHÚNG TÔI</h1>
@@ -56,9 +61,10 @@ export const AboutMe = () => {
     <Swiper className="container testimonials__container"
     // install Swiper modules
     modules={[Pagination]}
-    spaceBetween={40}
+    spaceBetween={100}
     slidesPerView={1}
     pagination={{ clickable: true }}
+    // autoplay={{ delay: 2000, disableOnInteraction: false  }}
     >
       {
         data.map(({avatar, name, review}, index) => {
