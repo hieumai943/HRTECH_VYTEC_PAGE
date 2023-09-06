@@ -280,7 +280,12 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 .App {
   text-align: center;
+  
   background-image: url(./assets/thele.jpg);
+  background-size: cover;
+ 
+  background-attachment: fixed;
+  background-position: center;
   line-height: 1.7;
 }
 

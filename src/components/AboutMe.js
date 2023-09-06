@@ -64,7 +64,7 @@ export const AboutMe = () => {
     spaceBetween={100}
     slidesPerView={1}
     pagination={{ clickable: true }}
-    // autoplay={{ delay: 2000, disableOnInteraction: false  }}
+    autoplay={{ delay: 2000, disableOnInteraction: false  }}
     >
       {
         data.map(({avatar, name, review}, index) => {
