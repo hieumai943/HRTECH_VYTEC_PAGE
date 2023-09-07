@@ -366,6 +366,11 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
     width: 50vw;
 
   }
+  .App {
+  
+    
+    background-image: url(./assets/thele_2.jpg);
+  }
 }
 @media (max-width:472px) {
   .LinkDangKy{
@@ -621,7 +626,14 @@ text-align: start;
   bottom: 1vh;
   right: 5%;
 }
-
+.footer #contact {
+  text-decoration: none;
+  color: white;
+}
+.footer #contact:hover {
+  text-decoration: none;
+  color: #219ebc;
+}
 @media (max-width: 768px){
   
 .footer #contact {

@@ -7,6 +7,8 @@ import slide4 from '../assets/Slide4.png';
 import slide5 from '../assets/Slide5.png';
 import slide6 from '../assets/Slide6.png';
 import slide7 from '../assets/Slide7.png';
+import slide8 from '../assets/Slide8.png';
+
 import hrtLogo from '../assets/hrt_logo.png'
 
 import { Pagination } from 'swiper';
@@ -46,6 +48,10 @@ const data = [
   {
     avatar: slide7,
     review: 'Ngày hội việc làm UET Job Fair'
+  },
+  {
+    avatar: slide8,
+    review: 'Cuộc thi UET HACKATHON OPEN 2022'
   },
   
 ]

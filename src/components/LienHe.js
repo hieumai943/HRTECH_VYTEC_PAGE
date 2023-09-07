@@ -78,7 +78,7 @@ export const LienHe = () => {
           </Col>
         </Row>
       </Container>
-      <span id="contact">LIÊN HỆ NGAY</span>
+      <a href="https://www.facebook.com/VYTEC.Official"id="contact">LIÊN HỆ NGAY</a>
       <p id="uet">© 2023 UET-VNU</p>
     </footer>
   );
