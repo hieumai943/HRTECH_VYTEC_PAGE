@@ -3,7 +3,7 @@ import Alert from "./Alert";
 import AlertGmail from "./AlertGmail";
 
 import { Container, Row, Col } from "react-bootstrap";
-import logo from "../assets/logo_VYTEC.png";
+import logo from "../assets/logo_VYTEC_.png";
 import navIcon1 from "../assets/nav-icon1.svg";
 import navIcon2 from "../assets/nav-icon2.svg";
 import navIcon3 from "../assets/nav-icon3.svg";

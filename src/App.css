@@ -89,7 +89,7 @@ p.danger {
 
 /************ Navbar Css ************/
 #logo_vytech{
-  width: fit-content;
+  width: 150%;
 }
 nav.navbar {
   padding: 18px 0;
@@ -161,6 +161,7 @@ span.navbar-text {
 }
 .navbar-collapse{
   margin-left: 10%;
+  
 }
 /* @media screen and (max-width: 767px) {
   .navbar-collapse.collapse.show{
@@ -324,7 +325,60 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   }
 }
 
-/* bgr video */
+/* bgr video  aka banner*/
+.LinkDangKy a {
+  color: white;
+  text-decoration: none;
+
+  
+}
+.LinkDangKy {
+  display: flex;
+ justify-content: space-between;
+  align-items: center;
+ width: 20vw;
+}
+
+.LinkDangKy a button{
+  border: 1px solid  #fff;
+  color: white;
+  width: 100%;
+  height: 40px;
+  margin: 20px;
+  border-radius: 20px;
+
+  
+}
+@media (max-width:1287px) {
+  .LinkDangKy{
+    width: 30vw;
+
+  }
+}
+@media (max-width:864px) {
+  .LinkDangKy{
+    width: 40vw;
+
+  }
+}
+@media (max-width:615px) {
+  .LinkDangKy{
+    width: 50vw;
+
+  }
+}
+@media (max-width:472px) {
+  .LinkDangKy{
+    width: 70vw;
+
+  }
+}
+@media (max-width:343px) {
+  .LinkDangKy{
+    width: 80vw;
+
+  }
+}
 .main{
 
   width: 100%;
@@ -396,6 +450,14 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
  margin: 4vh 35%;
 }
+.content #dangky button{
+  border: 1px solid  #fff;
+  color: white;
+  width: 100%;
+  height: 40px;
+  margin: 20px;
+  border-radius: 20px;
+}
 .main2 .content button{
   border: 1px solid  #fff;
   color: white;
@@ -427,6 +489,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
     font-size: 20px;
     
   }
+ 
   .main2 .content button{
    width: 22%;
  
@@ -545,7 +608,8 @@ text-align: start;
 }
 
 .footer img {
-  width: 26%;
+  width: 22%;
+  margin-right: 4%;
 }
 .footer #uet {
   font-weight: 400;
@@ -557,7 +621,9 @@ text-align: start;
   bottom: 1vh;
   right: 5%;
 }
+
 @media (max-width: 768px){
+  
 .footer #contact {
     display: none;
 }
@@ -631,6 +697,12 @@ filter: brightness(0) saturate(100%) invert(0%) sepia(7%) saturate(98%) hue-rota
 
    margin-left: 1.5vw;
    margin-bottom: 5vh;
+}
+@media (max-width: 500px) {
+  .footer img {
+    width: 35%;
+    margin: 5% 0;
+  }
 }
 /* ------ alert css --------*/
 .popup {
