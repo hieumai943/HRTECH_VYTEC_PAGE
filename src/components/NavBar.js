@@ -40,11 +40,11 @@ export const NavBar = () =>{
               <Nav.Link href="#thele" className ={activeLink === 'thele' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('thele')}>THỂ LỆ</Nav.Link>
               <Nav.Link href="#timeline" className={activeLink === 'timeline' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('timeline')}>TIMELINE</Nav.Link>
               <Nav.Link href="#giaithuong" className={activeLink === 'giaithuong' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('giaithuong')}>GIẢI THƯỞNG</Nav.Link>
-              <Nav.Link href="#aboutme" className={activeLink === 'aboutme' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('aboutme')}>VỀ CHÚNG TÔI</Nav.Link>
+              <Nav.Link href="#testimonials" className={activeLink === 'aboutme' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('aboutme')}>VỀ CHÚNG TÔI</Nav.Link>
           </Nav>
           <span className="navbar-text">
               <div className="logo_hr">
-                <a href="#"><img src={navIcon1} alt="" /></a>
+                <a href="https://www.facebook.com/hrtechclub"><img src={navIcon1} alt="" /></a>
               </div>
         
             </span>

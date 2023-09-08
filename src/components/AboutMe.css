@@ -1,35 +1,77 @@
-/* components/CustomCarousel.css */
-.carousel {
-    max-height: 401px; /* Thay đổi chiều cao */
-    max-width: 600px; /* Thay đổi chiều rộng */
-  }
-  /* đổi kích thước thì đổi cả trên cả dưới anh nhá, trên là kích thước khung, dưới là kích thước ảnh */
-  .carousel-item img {
-    max-height: 401px; /* image không vượt quá chiều cao */
-    max-width: 100%; /* image co dãn theo chiều rộng khung Carousel */
-  }
-.carousel .carousel-indicators button{
-   display: none; 
+.container.testimonials__container {
+  width: 50%;
+  padding-bottom: 0.5rem;
 }
-/*About me css*/
-.aboutMe {
-    margin-left: 430px;
-    position: relative;
-    bottom: -20px;
-    /* display: flex; */
-}
-.textAboutUs {
-  position: relative;
-  left: -13rem;
-  margin-bottom: 40px;
-}
-/* logoHRT*/
-.logoCLB {
-    width: 118.5px;
-    height: 109.5px;
-    position: relative;
-    left: -13rem;
-    margin-bottom: 40px;
 
+.client__avatar {
+  width: 40vw;
+  overflow: hidden;
+ 
+  margin: 0 auto 1rem;
+  border: 0.4rem solid var(--color-primary-variant);
 }
-  
+
+.testimonial {
+  background: var(--color-bg-variant);
+  text-align: center;
+  padding: 2rem;
+  border-radius: 2rem;
+  user-select: none;
+}
+#testimonials #hrtlogo{
+  width: 5%;
+  margin: 20px 0;
+}
+#testimonials h1:first-child{
+  color: #91FFFE;
+}
+.client__review {
+  color: #ccc;
+  font-weight: 300;
+  display: block;
+  width: 80%;
+  font-size: 20px;
+  margin: 0.8rem auto 0;
+}
+
+.swiper-pagination-clickable .swiper-pagination-bullet {
+  background: white;
+}
+
+
+/* =============== MEDIA QUERIES (MEDIUM DEVICES) ================ */
+@media screen and (max-width: 1024px) {
+  .container.testimonials__container {
+      width: 80%;
+  }
+  .client__avatar {
+    width: 60vw;
+  }
+  #testimonials #hrtlogo{
+    width: 10%;
+    
+  }
+}
+
+@media screen and (max-width: 620px) {
+  .container.testimonials__container {
+      width: 100%;
+  }
+  .client__avatar {
+    width: 80vw;
+  }
+  #testimonials #hrtlogo{
+    width: 15%;
+    
+  }
+}
+/* =============== MEDIA QUERIES (SMALL DEVICES) ================ */
+@media screen and (max-width: 600px) {
+  .container.testimonials__container {
+      width: var(--container-width-sm);
+  }
+
+  .client__review {
+      width: var(--container-width-sm);
+  }
+}

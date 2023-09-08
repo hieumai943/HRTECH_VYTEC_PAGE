@@ -1,69 +1,278 @@
 
-#line {
-    margin-top: 100px;
-}
-.timeline{
-    margin-bottom: 0;
-}
-.textVongDon{
-    font-size: 20px;
-    margin-bottom: 2px;   
-    font-weight: bold;
+.content_tl{
     position: relative;
-    right: -70px;
-    font-family: 'Centra', sans-serif !important;
+  margin-top: 50px;
+}
+.content_tl img{
+    width: 80vw;
+}
 
-}
-.textBanKet{
-    font-size: 20px;
-    margin-bottom: 2px; 
-    font-weight: bold;
-    position: relative;
-    left: -100px;
-    font-family: 'Centra', sans-serif !important;
-  
-}   
-.textChungKet{
-    font-size: 20px;
-    margin-bottom: 2px;   
-    font-weight: bold;
-    font-family: 'Centra', sans-serif !important;
-    position: relative;
-    right: -80px;
-
-}   
 .vongDon{
-    position: relative;
-    top: -520px;
+    position: absolute;
+    top: 6%;
+    right: 20%;
+    width: 50%;
+
+
+}
+.vongDon span{
+    font-weight: bold;
+   
+}
+.vongDon h2{
+    font-size: 160%;
+    font-weight: bold;
+    color:#3DDEEE;
+}
+.vongDon p {
+    text-align: start;
+    font-size: 1.2vw;
+    margin: 0px;
 }
 .banKet{
-    position: relative;
-    top: -510px;
+    position: absolute;
+    top: 43%;
+    left: 23%;
+    width: 50%;
+  
+    height: 10%;
+}
+.banKet h2{
+    font-size: 160%;
+    font-weight: bold;
+    color:#3DDEEE;
+
+}
+.xemthem{
+    border: 1px solid #fff;
+    color: white;
+    width: 9%;
+    height: 40px;
+    border-radius: 20px;
+    font-size: 20px;
+}
+button:hover{
+    background-color: #032e4f;
+}
+@media (min-width :991px) {
+    .banKet h2{
+        margin-right: 15vw;
+
+    }
+}
+   
+.banKet p {
+    text-align: start;
+    font-size: 1.2vw;
+    margin: 0px;
+}
+.banKet span{
+    font-weight: bold;
+
 }
 .chungKet{
-    position: relative;
-    top: -500px;
+    position: absolute;
+    bottom: 17%;
+    right: 22%;
+    width: 50%;
+    height: 10%;
 }
-.timeline pre {
-    margin: 2vh;
-    font-size: 14px;
-    text-align: left;
+.chungKet h2{
+    font-size: 160%;
+    font-weight: bold;
+    color:#3DDEEE;
+
 }
-.paragraphDon,
-.paragraphBan,
-.paragraphChung
-{
-   position: relative;
+.chungKet p {
+    text-align: start;
+    font-size: 1.2vw;
+    margin: 0px;
 }
-.paragraphDon{
-    right: -400px;
-    top: -20px;
+.chungKet span{
+    font-weight: bold;
 }
-.paragraphBan{
-    right: -280px;
-    top: -20px;
+.content_tl_mobile{
+    display: none;
 }
-.paragraphChung{
-    right: -400px;
-    top: -20px;
+.mobile img{
+    width: 20%;
 }
+@media (max-width:991px) {
+     .xemthem{
+        width: 13%;
+      
+       }
+    .content_tl img{
+        width: 100vw;
+        height: 120vw;
+        
+    }
+    .vongDon{
+        width: 60%;
+        top: 6%;
+        right: 15%;
+    }
+    .vongDon h2{
+        font-size: 30px;
+    }
+    .vongDon p{
+        
+        font-size: 20px;
+    }
+    .banKet{
+        width: 60%;
+        top: 40%;
+        
+    }
+    .banKet h2{
+        font-size: 30px;
+    }
+    .banKet p{
+        
+        font-size: 20px;
+    }
+    .chungKet{
+        width: 60%;
+      right: 15%;
+      
+    }
+    .chungKet h2{
+        font-size: 30px;
+    }
+    .chungKet p{
+        
+        font-size: 20px;
+    }
+}
+@media (max-width:834px) {
+    .xemthem {
+        width: 15%;
+    }
+    .content_tl img{
+        width: 100vw;
+        height: 100vw;
+    }
+    .vongDon{
+        
+        top: 7%;
+        right: 15%;
+    }
+    .vongDon h2{
+        font-size: 25px;
+    }
+    .vongDon p{
+        
+        font-size: 16px;
+    }
+    .banKet{
+        top: 42%;
+        left: 16%;
+        width: 60%;
+        
+    }
+    .banKet h2{
+        font-size: 25px;
+    }
+    .banKet p{
+        
+        font-size: 16px;
+    }
+    .chungKet{
+
+      bottom: 20%;
+    }
+    .chungKet h2{
+        font-size: 25px;
+    }
+    .chungKet p{
+        
+        font-size: 16px;
+    }
+   
+}
+@media (max-width:757px) {
+    .content_tl img{
+        width: 100vw;
+        height: 130vw;
+    }
+    .vongDon{
+        margin-left: 15%;
+        top: 8%;
+        right: 15%;
+        width: 68%;
+    }
+  
+    .banKet{
+        left: 17%;
+        width: 68%;
+   
+       
+    }
+    .banKet h2{
+        font-size: 130%;
+
+    }
+    .banKet p{
+        
+        font-size: 90%;
+    }
+    .chungKet{
+        margin-left: 15%;
+        bottom: 19%;
+        right: 15%;
+        width: 68%;
+
+    }
+    .vongDon h2, .chungKet h2{
+        font-size: 130%;
+    }
+    .vongDon p, .chungKet p{
+        
+        font-size: 90%;
+
+    }
+   
+}
+@media (max-width:573px) {
+    .xemthem{
+        width: 25%;
+    }
+    .content_tl img{
+        width: 100vw;
+        height: 150vw;
+    }
+    .vongDon{
+       
+        top: 5%;
+        right: 15%;
+        width: 68%;
+        font-size: 90%;
+    }
+    .banKet{
+        font-size: 90%;
+    }
+    .chungKet{
+        font-size: 90%;
+    }
+   
+}
+
+@media (max-width:475px) {
+    .content_tl{
+        display: none;
+    }
+    .content_tl_mobile{
+        display: block;
+    }
+    .mobile{
+        margin: 60px 0  ;
+    }
+    .vongDon1{
+       text-align: left;
+       
+    }
+    .vongDon1 span{
+        font-weight: bold;
+    }
+}
+
