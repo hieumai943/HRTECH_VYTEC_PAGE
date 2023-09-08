@@ -18,7 +18,7 @@ export const Banner = () => {
       {showLinks && (
         <div className='LinkDangKy'>
           <a href="https://docs.google.com/forms/d/e/1FAIpQLScGZlmYyztAfhlWrD0vj7o7AdHaf4lFOyvqAHLR2yPQJt8Bng/viewform?usp=sharing" target="_blank">
-            <button >ĐỘI</button>
+            <button >ĐỘI THI</button>
           </a>
           <a href="https://docs.google.com/forms/u/3/d/19wzFsTXH7ROAdxOm2NP0iOUwjzeG9uY6ACbCImWqSy8/edit?usp=drive_web" target="_blank">
           <button>CÁ NHÂN</button>

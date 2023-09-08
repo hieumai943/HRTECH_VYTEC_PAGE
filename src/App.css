@@ -344,7 +344,8 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   color: white;
   width: 100%;
   height: 40px;
-  margin: 20px;
+  margin-top: 20px;
+  padding: 0 20px;
   border-radius: 20px;
 
   
@@ -357,13 +358,13 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 @media (max-width:864px) {
   .LinkDangKy{
-    width: 40vw;
+    width: 45vw;
 
   }
 }
 @media (max-width:615px) {
   .LinkDangKy{
-    width: 50vw;
+    width: 54vw;
 
   }
   .App {
@@ -470,6 +471,12 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   height: 40px;
   margin: 20px;
   border-radius: 20px;
+
+  
+}
+.main2 .content a{
+ text-decoration: none;
+ color: white;
 
   
 }
@@ -621,7 +628,7 @@ text-align: start;
   font-size: 15px;
   color: #B8B8B8;
   letter-spacing: 0.5px;
-  margin-top: 20px;
+  margin-top: 30px;
   position: absolute;
   bottom: 1vh;
   right: 5%;
