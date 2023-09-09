@@ -419,6 +419,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .content p{
   margin: 5vh 10vw 10vh 10vw;
   font-size: 140%;
+  font-weight: 600;
 }
 .content button{
   font-size: 130%;
@@ -474,11 +475,10 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
   
 }
+
 .main2 .content a{
  text-decoration: none;
  color: white;
-
-  
 }
 @media (max-width:1076px) {
   
@@ -691,6 +691,7 @@ text-align: start;
 }
 .social-icon a:hover {
   color: white;
+  cursor: pointer;
 }
 .social-icon a img {
 width: 40%;

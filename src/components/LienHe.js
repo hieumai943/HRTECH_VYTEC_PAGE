@@ -68,7 +68,7 @@ export const LienHe = () => {
                 <span id="ten">Phone</span>
               </div>
               <div className="line">
-                <a href="https://www.facebook.com/hrtechclub">
+                <a href="https://www.facebook.com/hrtechclub" target="_blank">
                   <img src={navIcon2} alt="Icon" />
                 </a>
 
