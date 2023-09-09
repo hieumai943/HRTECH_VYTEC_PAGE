@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import { Navbar, NavDropdown, Form, FormControl, Button, Nav } from 'react-bootstrap'
 
 import Container from 'react-bootstrap/Container'
-import logo from '../assets/logo_VYTEC.png';
+import logo from '../assets/logo_VYTEC_.png';
 import navIcon1 from '../assets/hrt_logo.png';
 import {
   BrowserRouter as Router
