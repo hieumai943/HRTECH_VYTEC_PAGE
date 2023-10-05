@@ -809,3 +809,12 @@ filter: brightness(0) saturate(100%) invert(0%) sepia(7%) saturate(98%) hue-rota
     
   }
 }
+/* ---------------------thele----------------- */
+#thele .main2 .content h4{
+  color:#3DDEEE;
+
+  font-weight: bold;
+}
+#thele .main2 .content h1{
+  margin-bottom: 30px;
+}
