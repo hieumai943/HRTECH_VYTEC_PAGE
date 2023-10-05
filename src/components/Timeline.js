@@ -135,10 +135,10 @@ export const Timeline = () => {
           </div>
         </div>
       </div>
-      {/* <a href="https://www.facebook.com/hrtechclub/posts/pfbid03acJRznXc5yZAweXeGkSYLdqPtwHmb5puGuWFPc6zg8me6dZoeYnXENZRqkbxsCTl">
+      <a href="https://docs.google.com/document/d/1ScqXz4ylO5yfgoxmIp8y-cwfop9HurfDH7u7j8Bl6k8/edit?usp=sharing" target="_blank">
       <button className='xemthem'>
               <span >Chi tiết</span></button>
-      </a> */}
+      </a>
       
     </section>
   );
