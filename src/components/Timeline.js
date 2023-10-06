@@ -15,7 +15,7 @@ export const Timeline = () => {
           <div className="vongDon">
             <h2 className="textVongDon">VÒNG ĐƠN</h2>
             <p id="pre" className="paragraphDon">
-              <span>Thời gian:</span> 03/10 - 04/11
+              <span>Thời gian:</span> 09/10/2023 - 04/11/2023
               <br />
               <span>Hình thức:</span> Online
               <br />
@@ -30,7 +30,9 @@ export const Timeline = () => {
           <div className="banKet">
             <h2 className="textBanKet">BÁN KẾT</h2>
             <p id="pre" className="paragraphBan">
-              <span>Hình thức:</span> Online
+              <span>Thời gian:</span> 18/11/2023
+              <br />
+              <span>Hình thức:</span> Offline
               <br />
               <span>Thể lệ: </span>
               Mỗi đội thi sẽ có 12 phút cho sản phẩm của mình, bao gồm:
@@ -45,6 +47,8 @@ export const Timeline = () => {
           <div className="chungKet">
             <h2 className="textChungKet">CHUNG KẾT</h2>
             <p id="pre" className="paragraphChung">
+              <span>Thời gian:</span> 09/12/2023
+              <br />
               <span>Thành phần tham gia:</span> 5 đội xuất sắc vượt qua vòng Bán
               kết
               <br />
