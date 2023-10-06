@@ -39,7 +39,7 @@ const data = [
   },
   {
     avatar: slide5,
-    review: 'Ngày hội truyến thông UET Connect'
+    review: 'Ngày hội truyền thống UET Connect'
   },
   {
     avatar: slide6,
