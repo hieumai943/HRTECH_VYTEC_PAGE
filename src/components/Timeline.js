@@ -139,7 +139,7 @@ export const Timeline = () => {
           </div>
         </div>
       </div>
-      <a href="https://docs.google.com/document/d/1ScqXz4ylO5yfgoxmIp8y-cwfop9HurfDH7u7j8Bl6k8/edit?usp=sharing" target="_blank">
+      <a href="https://drive.google.com/file/d/1TMPs-pC1aVnM0klxSab7aQooULywVo-x/view?fbclid=IwAR2TWFv66oQbGYXw-BkVMeJoUcAUjuSemEwNaQUQvyjS2JO1ZOps_Xz6fIk" target="_blank">
       <button className='xemthem'>
               <span >Chi tiết</span></button>
       </a>
