@@ -30,7 +30,7 @@ export const Thele = () => {
               <li>Tiến độ thi diễn ra từ 09/10-09/12/2023. Đăng ký tham gia từ 09/10-23/10, nộp dự án trước 04/11.</li>
             </ul>
             <button className='xemthem'>
-              <span  className='the-le-redirect'><a href='https://docs.google.com/document/d/1xyh-mHcWRp0O0SYxuyhF9CFJzTM7_x8R/edit?usp=sharing&ouid=107712627729423945239&rtpof=true&sd=true' target="_blank">Xem thêm</a></span></button>
+              <span  className='the-le-redirect'><a href='https://drive.google.com/file/d/1quxjtueBl8yOKO-q0CJ-hh0vt-cMwlE-/view?fbclid=IwAR2cdubVB-b9AaXGGOoIvyQZPeDAt2Ca7EzelEvpRNxttP6VAv7IA1xs6kg' target="_blank">Xem thêm</a></span></button>
 
         </div>
         
