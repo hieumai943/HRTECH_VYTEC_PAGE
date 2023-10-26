@@ -15,7 +15,7 @@ export const Timeline = () => {
           <div className="vongDon">
             <h2 className="textVongDon">VÒNG ĐƠN</h2>
             <p id="pre" className="paragraphDon">
-              <span>Thời gian:</span> 09/10/2023 - 04/11/2023
+              <span>Thời gian dự kiến:</span> 09/10/2023 - 11/11/2023
               <br />
               <span>Hình thức:</span> Online
               <br />
@@ -30,7 +30,7 @@ export const Timeline = () => {
           <div className="banKet">
             <h2 className="textBanKet">BÁN KẾT</h2>
             <p id="pre" className="paragraphBan">
-              <span>Thời gian:</span> 18/11/2023
+              <span>Thời gian dự kiến:</span> 26/11/2023
               <br />
               <span>Hình thức:</span> Offline
               <br />
@@ -47,7 +47,7 @@ export const Timeline = () => {
           <div className="chungKet">
             <h2 className="textChungKet">CHUNG KẾT</h2>
             <p id="pre" className="paragraphChung">
-              <span>Thời gian:</span> 09/12/2023
+              <span>Thời gian dự kiến:</span> 09/12/2023
               <br />
               <span>Thành phần tham gia:</span> 5 đội xuất sắc vượt qua vòng Bán
               kết

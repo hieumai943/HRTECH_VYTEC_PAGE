@@ -27,7 +27,7 @@ export const Thele = () => {
             </ul>
             <h4>THỜI GIAN DỰ KIẾN</h4>
             <ul>
-              <li>Thời gian cuộc thi diễn ra từ 09/10-09/12/2023. Đăng ký tham gia từ 09/10-23/10, nộp dự án trước 04/11.</li>
+              <li>Thời gian cuộc thi diễn ra từ 09/10-09/12/2023. Đăng ký tham gia từ 09/10-25/10, nộp dự án trước 11/11.</li>
             </ul>
             <button className='xemthem'>
               <span  className='the-le-redirect'><a href='https://drive.google.com/file/d/1quxjtueBl8yOKO-q0CJ-hh0vt-cMwlE-/view?fbclid=IwAR2cdubVB-b9AaXGGOoIvyQZPeDAt2Ca7EzelEvpRNxttP6VAv7IA1xs6kg' target="_blank">Xem thêm</a></span></button>
